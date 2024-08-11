@@ -1,0 +1,50 @@
+/* Estilos generales */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(45deg, #222, #444);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor principal */
+.container {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Contenido */
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Elementos gráficos (opcional) */
+.shape {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.shape1 {
+    top: 20%;
+    left: 10%;
+}
+
+.shape2 {
+    bottom: 10%;
+    right: 20%;
+}
